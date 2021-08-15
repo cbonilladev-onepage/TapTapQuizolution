@@ -87,6 +87,7 @@ const App = () => {
             answers={questions[number].answers}
             userAnswer={userAnswers ? userAnswers[number] : undefined}
             callback={checkAnswer}
+            image={questions[number].image}
           />
         )}
         {!gameOver && !loading && userAnswers.length === number + 1 && number !== TOTAL_QUESTIONS - 1 ? (

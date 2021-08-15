@@ -23,6 +23,7 @@ export const Wrapper = styled.div `
 	.question {
 		width: 600px;
 		text-align: center;
+		margin: 1em 0 0 0;
 	}
 
 	.options {
@@ -34,6 +35,12 @@ export const Wrapper = styled.div `
 
 	.options > div {
 		margin: 0.5em;
+	}
+
+	.image {
+		width: 500px;
+		height: auto;
+		margin: -30px;
 	}
 `
 
@@ -67,5 +74,5 @@ export const ButtonWrapper = styled.div<ButtonWrapperProps>`
 		color: #fff;
 		text-shadow: 0px 1px 0px rgba(0,0,0,0.25);
 	}
-	
+
 `

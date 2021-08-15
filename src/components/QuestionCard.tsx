@@ -9,15 +9,17 @@ type Props = {
 	userAnswer: AnswerObject | undefined;
 	questionNum: number;
 	totalQuestions: number;
+	image: string;
 }
 
-const QuestionCard: React.FC<Props> = ({question, answers, callback, userAnswer, questionNum, totalQuestions}) => {
+const QuestionCard: React.FC<Props> = ({question, answers, callback, userAnswer, questionNum, totalQuestions, image}) => {
 	return (
 		<Wrapper>
 			<p className="number">
 				Question: {questionNum} / {totalQuestions}
 			</p>
 			<p className="question" dangerouslySetInnerHTML={{__html: question}} />
+			<img src={image} alt="code" className="image"/>
 			<div className="options">
 				{answers.map((answer) => (
 					<ButtonWrapper 

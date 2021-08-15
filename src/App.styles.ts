@@ -25,11 +25,11 @@ export const GlobalStyle = createGlobalStyle`
 	button {
 		background-color: black;
 		padding: 10px 50px;
-		font-size: 2em;
+		font-size: 1.5em;
 	}
 
 	p {
-		font-size: 2em;
+		font-size: 1.5em;
 	}
 
 `
@@ -45,7 +45,7 @@ export const Wrapper = styled.div `
 
 	.score {
 		color: white;
-		font-size: 2rem;
+		font-size: 1.5rem;
 		// margin: 0.5 em
 	}
 
@@ -60,7 +60,7 @@ export const Wrapper = styled.div `
 		-moz-background-clip: text;
 		-moz-text-fill-color: transparent;
 		filter: drop-shadow(2px 2px #49fb35);
-		font-size: 70px;
+		font-size: 50px;
 		text-align: center;
 		margin: 20px 0 0 0;
 	}

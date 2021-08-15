@@ -1,5 +1,5 @@
 //Custom JSON quiz.
-// import data from './data/quiz';
+import data from './data/quiz';
 import { shuffleArray } from "./utils";
 
 export type Question = {
@@ -9,6 +9,7 @@ export type Question = {
 	incorrect_answers: string[];
 	question: string;
 	type: string;
+	image: string;
 }
 
 export type QuestionsState = Question & { answers: string[] }
@@ -20,8 +21,8 @@ export enum Difficulty {
 }
 
 export const fetchQuizQuestions = async (amount: number, difficulty: Difficulty) => {
-	const endpoint = `https://opentdb.com/api.php?amount=${amount}&difficulty=${difficulty}&type=multiple`;
-	const data = await(await fetch(endpoint)).json();
+	// const endpoint = `https://opentdb.com/api.php?amount=${amount}&difficulty=${difficulty}&type=multiple`;
+	// const data = await(await fetch(endpoint)).json();
 	return data.results.map((question: Question) => (
 		{
 			...question, 

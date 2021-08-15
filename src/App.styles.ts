@@ -46,7 +46,7 @@ export const Wrapper = styled.div `
 	.score {
 		color: white;
 		font-size: 2rem;
-		margin: 0;
+		// margin: 0.5 em
 	}
 
 	h1 {
@@ -62,11 +62,16 @@ export const Wrapper = styled.div `
 		filter: drop-shadow(2px 2px #49fb35);
 		font-size: 70px;
 		text-align: center;
-		margin: 20px;
+		margin: 20px 0 0 0;
 	}
 
-	.start, .next {
+	.next {
 		cursor: pointer;
-		background: linear-gradient(180def, #fff, #)
+		// background: linear-gradient(180def, #fff, #)
+		margin: 1em;
+	}
+
+	.start {
+		margin: 1em 0 0 0;
 	}
 `

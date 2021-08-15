@@ -7,7 +7,8 @@ export const GlobalStyle = createGlobalStyle`
 	}
 
 	body {
-		background-image: url(${BGImage});
+		// background-image: url(${BGImage});
+		background-color: black;
 		background-size: cover;
 		margin: 0;
 		padding; 0 20px;
@@ -62,5 +63,10 @@ export const Wrapper = styled.div `
 		font-size: 70px;
 		text-align: center;
 		margin: 20px;
+	}
+
+	.start, .next {
+		cursor: pointer;
+		background: linear-gradient(180def, #fff, #)
 	}
 `

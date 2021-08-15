@@ -19,6 +19,22 @@ export const Wrapper = styled.div `
 	.number {
 		margin: 0;
 	}
+
+	.question {
+		width: 600px;
+		text-align: center;
+	}
+
+	.options {
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.options > div {
+		margin: 0.5em;
+	}
 `
 
 type ButtonWrapperProps = {

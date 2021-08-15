@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.js": "/TapTapQuizolution/static/js/main.5e4ab54d.chunk.js",
+    "main.js.map": "/TapTapQuizolution/static/js/main.5e4ab54d.chunk.js.map",
+    "runtime-main.js": "/TapTapQuizolution/static/js/runtime-main.df824ee9.js",
+    "runtime-main.js.map": "/TapTapQuizolution/static/js/runtime-main.df824ee9.js.map",
+    "static/js/2.cd65850d.chunk.js": "/TapTapQuizolution/static/js/2.cd65850d.chunk.js",
+    "static/js/2.cd65850d.chunk.js.map": "/TapTapQuizolution/static/js/2.cd65850d.chunk.js.map",
+    "index.html": "/TapTapQuizolution/index.html",
+    "static/js/2.cd65850d.chunk.js.LICENSE.txt": "/TapTapQuizolution/static/js/2.cd65850d.chunk.js.LICENSE.txt",
+    "static/media/q1.c36ad78d.png": "/TapTapQuizolution/static/media/q1.c36ad78d.png",
+    "static/media/q10.ed999c4c.png": "/TapTapQuizolution/static/media/q10.ed999c4c.png",
+    "static/media/q2.ad081e23.png": "/TapTapQuizolution/static/media/q2.ad081e23.png",
+    "static/media/q3.38b25e54.png": "/TapTapQuizolution/static/media/q3.38b25e54.png",
+    "static/media/q4.63f5b6cb.png": "/TapTapQuizolution/static/media/q4.63f5b6cb.png",
+    "static/media/q5.7176af3a.png": "/TapTapQuizolution/static/media/q5.7176af3a.png",
+    "static/media/q6.60ddc913.png": "/TapTapQuizolution/static/media/q6.60ddc913.png",
+    "static/media/q7.9cfed3a9.png": "/TapTapQuizolution/static/media/q7.9cfed3a9.png",
+    "static/media/q8.1aa7c901.png": "/TapTapQuizolution/static/media/q8.1aa7c901.png",
+    "static/media/q9.4762e466.png": "/TapTapQuizolution/static/media/q9.4762e466.png",
+    "static/media/sigmund.529ad879.jpg": "/TapTapQuizolution/static/media/sigmund.529ad879.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.df824ee9.js",
+    "static/js/2.cd65850d.chunk.js",
+    "static/js/main.5e4ab54d.chunk.js"
+  ]
+}

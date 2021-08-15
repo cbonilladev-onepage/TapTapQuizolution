@@ -1,3 +1,5 @@
+//Custom JSON quiz.
+// import data from './data/quiz';
 import { shuffleArray } from "./utils";
 
 export type Question = {

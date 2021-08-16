@@ -1,6 +1,6 @@
 # Tap Tap Quizolution
 
-A quiz game played using directional arrow keys. General now, to be converted to a Python-based game.
+A quiz game played using directional arrow keys (not yet implemented). General now, to be converted to a Python-based game.
 
 **Required languages**: ReactJS, Typescript, Styled Components
 
